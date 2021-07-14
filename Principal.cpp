@@ -34,19 +34,23 @@ int main()
 	switch(op)
 {
 		case 1:
-//=====================================================
-//=====================================================
-//=====================================================
-			
+//===============================================
+//===============================================
+//===============================================
+
+//***********************************************			
     //INGRESAR LOS VALORES DE LAS MATRICES
-    //PARTICIPANTE 1//
+    // kerly Nieves colaborador1 //
+//***********************************************
+
     cout<<"\n============================================================\n";
 	cout<<"  EN ESTA PARTE PODREMOS PONER LOS VALORES DE LAS MATRICES\n";
 	cout<<"============================================================\n";
 	cout<<"\nPOR FAVOR DIGITE LOS NUMEROS DE LA PRIMERA MATRIZ\n";
-	for(int a=0;a<2;a++)
+	for(int a=0;a<5;a++)
+
 	{
-		for(int b=0;b<2;b++)
+		for(int b=0;b<5;b++)
 		{
 			cout<<"\nINGRESE UN NUMERO ["<<a<<"]["<<b<<"]: ";
 			cin>>matriz1[a][b];
@@ -54,9 +58,9 @@ int main()
 	}
 	
 	cout<<"\nPOR FAVOR DIGITE LOS NUMEROS DE LA SEGUNDA MATRIZ\n";
-	for(int a=0;a<2;a++)
+	for(int a=0;a<5;a++)
 	{
-		for(int b=0;b<2;b++)
+		for(int b=0;b<5;b++)
 		{
 			cout<<"\nINGRESE UN NUMERO ["<<a<<"]["<<b<<"]: ";
 			cin>>matriz2[a][b];
@@ -64,9 +68,9 @@ int main()
 	}
 	
 	cout<<"\nESTA ES LA PRIMERA MATRIZ: \n\n";
-	for(int a=0;a<2;a++)
+	for(int a=0;a<5;a++)
 	{
-		for(int b=0;b<2;b++)
+		for(int b=0;b<5;b++)
 		{
 			cout<<"[";
 			cout<<matriz1[a][b]<<"";
@@ -76,9 +80,9 @@ int main()
 	}
 	
 	cout<<"\nESTA ES DE LA SEGUNDA MATRIZ: \n\n";
-	for(int a=0;a<2;a++)
+	for(int a=0;a<5;a++)
 	{
-		for(int b=0;b<2;b++)
+		for(int b=0;b<5;b++)
 		{
 			cout<<"[";
 			cout<<matriz2[a][b]<<"";
@@ -93,8 +97,11 @@ int main()
 //====================================================
 //====================================================
 	        	
-    //PARTICIPANTE2 
-	//PRODUCTO DE LAS MATRICES.
+
+//****************************************************************************
+	//PRODUCTO DE LAS MATRICES josue Lastra 
+//****************************************************************************
+
     cout<<"\nESTA FUNCION PERMITE CALCULAR EL PRODUCTO ENTRE DOS MATRICES\n";
     
 	 for (int a=0;a<2;a++)
@@ -129,9 +136,11 @@ int main()
 
 
 
+//******************************
+//Colaborador 3 Edizon Ramírez 
+//******************************
 
-//COLABORADOR 3
-	// AQUI VAMOS A OBTENER LA POTENCIA DE UNA MATRIZ.
+	// VAMOS A OBTENER LA POTENCIA DE UNA MATRIZ.
 	
 	for (int a=0;a<2;a++)
     {
@@ -161,8 +170,13 @@ int main()
 //====================================================
 //====================================================
 
-//COLABORADOR4
+
+//****************************
+//COLABORADOR4 Gerald Swason
+//****************************
+
 	// AQUI SE VA A  CALCULAR LA TRANSPUESTA DE LA  MATRIZ 1
+
 	cout<<"\nLA PRIMERA MATRIZ, QUEDARIA ASI:\n";
 		
 	for(int a=0;a<2;a++)
@@ -170,6 +184,7 @@ int main()
 		for(int b=0;b<2;b++)
 		{
 		cout<<matriz1[b][a]<<" ";
+
 		}
 		 
 		 cout<<"\n";
@@ -182,8 +197,11 @@ int main()
 //====================================================
 //====================================================
 //====================================================
-//COLABORADOR5
-//AUI SE SACARA LA MEDIA Y LA VARIANZA DE LAS MATRICES
+
+//********************************************************
+//COLABORADOR5 Edizon Ramírez en conjunto de josue Lastra 
+//********************************************************
+
 
 	//AQUI VOY A CALCULAR Y MOSTRAR LAS MEDIA Y VARIANZA DE LAS DOS MATRICES
 	
