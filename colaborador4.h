@@ -7,7 +7,7 @@ void transpuesta(float (*m1)[5], float (*r)[5])
 
 cout<<"Obtener la transpuesta de una matriz";
 
-cout<<"\nMatriz Normal\n";
+cout<<"\nMatriz Normal \n";
 	for(int i=0;i<5;i++){
 		for(int j=0;j<5;j++){
 			cout<<m1[i][j]<<" ";
@@ -22,7 +22,7 @@ void mostrar5( float (*r)[5])
 
 cout<<"Obtener la transpuesta de una matriz";
 
-cout<<"\nMatriz Transpuesta\n";
+cout<<"\nMatriz Transpuesta \n";
 	for(int i=0;i<5;i++){
 		for(int j=0;j<5;j++){
 			cout<<r[j][i]<<" ";
