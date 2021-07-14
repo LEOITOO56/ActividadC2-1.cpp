@@ -3,6 +3,8 @@
 #include<conio.h>
 using namespace std;
 
+//kerly Nieve
+
 void ingresar(float (*m1)[5], float (*m2)[5])
 {
 
@@ -61,4 +63,4 @@ cout<<"\nLa matriz numero 2 es\n \n";
 
 }
 
-
+// KERLY NIEVES 
