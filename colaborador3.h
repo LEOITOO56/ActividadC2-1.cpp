@@ -33,7 +33,7 @@ int fila=5, colum=5;
 
 void mostrar4( float (*r)[5])
 {
-      cout<<"\nLa matriz en potencia es\n \n ";
+      cout<<"\nLa matriz en la potencia es\n \n ";
       int fila=5, colum=5;
       for(int b=0;b<fila;b++)
       {
