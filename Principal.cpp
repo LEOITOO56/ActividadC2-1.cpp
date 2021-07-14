@@ -14,20 +14,23 @@ cout<<"\n";
 
 }
 
-// FUCION PRINCIPAL
+// FUNCION PRINCIPAL
 int main()
 {
 	int op,flag;
 	float matriz1[5][5],matriz2[5][5],matrizresultado[5][5]={{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}},matrizresultado1[5][5]={{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}};
 	do
 {
-	cout<<"\nPROGRAMA "<<endl<<endl;
-	cout<<"1.- Primero ingresar los valores de las matrices \n";
-	cout<<"2.- sacar el producto de las dos matrices \n";
-	cout<<"3.- sacar la potencia de la matriz 1 \n"; 
-	cout<<"4.- sacar la transpuesta de la matriz 1 \n";
-	cout<<"5.- sacar la media y varianza de las matrices y compararlas \n";
-        cout<<" Ingrese una la opcion: "; cin>>op;
+	cout<<"\n============================================================"<<endl<<endl;
+	cout<<"              BIENVENIDO AL MENU DEL USUARIO\n";
+	cout<<"                 OPERACIONES CON MATRICES"<<endl<<endl;
+	cout<<"============================================================"<<endl<<endl;
+	cout<<"\n1.- Primero ingresar los valores de las matrices.\n";
+	cout<<"\n2.- Sacar el producto de las dos matrices.\n";
+	cout<<"3.- Sacar la potencia de la matriz 1.\n"; 
+	cout<<"4.- Sacar la transpuesta de la matriz 1.\n";
+	cout<<"5.- Sacar la media y varianza de las matrices y compararlas.\n";
+        cout<<"\nIngrese una opcion: "; cin>>op;
 	switch(op)
 {
 		case 1:
@@ -37,7 +40,9 @@ int main()
 			
     //INGRESAR LOS VALORES DE LAS MATRICES
     //PARTICIPANTE 1//
-	cout<<"EN ESTA PARTE PODREMOS PONER LOS VALORES DE LAS MATRICES\n";
+    cout<<"\n============================================================\n";
+	cout<<"  EN ESTA PARTE PODREMOS PONER LOS VALORES DE LAS MATRICES\n";
+	cout<<"============================================================\n";
 	cout<<"\nPOR FAVOR DIGITE LOS NUMEROS DE LA PRIMERA MATRIZ\n";
 	for(int a=0;a<2;a++)
 	{
@@ -58,22 +63,26 @@ int main()
 		}
 	}
 	
-	cout<<"\nESTA ES LA PRIMERA MATRIZ\n";
+	cout<<"\nESTA ES LA PRIMERA MATRIZ: \n\n";
 	for(int a=0;a<2;a++)
 	{
 		for(int b=0;b<2;b++)
 		{
-			cout<<matriz1[a][b]<<" ";
+			cout<<"[";
+			cout<<matriz1[a][b]<<"";
+			cout<<"]";
 		}
 		cout<<"\n";
 	}
 	
-	cout<<"\nESTA ES DE LA SEGUNDA MATRIZ\n";
+	cout<<"\nESTA ES DE LA SEGUNDA MATRIZ: \n\n";
 	for(int a=0;a<2;a++)
 	{
 		for(int b=0;b<2;b++)
 		{
-			cout<<matriz2[a][b]<<" ";
+			cout<<"[";
+			cout<<matriz2[a][b]<<"";
+			cout<<"]";
 		}
 		cout<<"\n";
 	}
