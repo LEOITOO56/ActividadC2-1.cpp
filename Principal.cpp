@@ -22,7 +22,7 @@ int main()
 	do
 {
 	cout<<"\n============================================================"<<endl<<endl;
-	cout<<"              BIENVENIDO AL MENU DEL USUARIO\n";
+	cout<<"              BIENVENIDO AL MENU DEL USUARIO PROFESOR UN 100 SI \n";
 	cout<<"                 OPERACIONES CON MATRICES"<<endl<<endl;
 	cout<<"============================================================"<<endl<<endl;
 	cout<<"\n1.- Primero ingresar los valores de las matrices.\n";
