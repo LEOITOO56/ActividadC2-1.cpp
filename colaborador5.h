@@ -5,10 +5,10 @@ using namespace std;
 void mediayvarianza(float (*m1)[5], float (*m2)[5])
 {
 
-cout<<"Determinar  cual de las 2 matrices tiene la mayor media y varianza";
+cout<<"Determinar cual de las 2 matrices tiene la mayor media y varianza";
 float x,a=0,m,arr[30],a2=0,v;
     int c=0,l;
-    cout<<" ¿Cuantos numero va a ingresa <30? : "; cin>>l;
+    cout<<" Â¿Cuantos numero va a ingresa <30? : "; cin>>l;
 
 do{
 
