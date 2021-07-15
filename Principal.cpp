@@ -14,7 +14,7 @@ cout<<"\n";
 
 }
 
-// FUNCION PRINCIPAL
+// FUCION PRINCIPAL
 int main()
 {
 	int op,flag;
@@ -22,14 +22,14 @@ int main()
 	do
 {
 	cout<<"\n============================================================"<<endl<<endl;
-	cout<<"              BIENVENIDO AL MENU DEL USUARIO PROFESOR UN 100 SI \n";
+	cout<<"              BIENVENIDO AL MENU DEL USUARIO\n";
 	cout<<"                 OPERACIONES CON MATRICES"<<endl<<endl;
 	cout<<"============================================================"<<endl<<endl;
 	cout<<"\n1.- Primero ingresar los valores de las matrices.\n";
-	cout<<"\n2.- Sacar el producto de las dos matrices.\n";
-	cout<<"3.- Sacar la potencia de la matriz 1.\n"; 
-	cout<<"4.- Sacar la transpuesta de la matriz 1.\n";
-	cout<<"5.- Sacar la media y varianza de las matrices y compararlas.\n";
+	cout<<"\n2.- Sacar el PRODUCTO de las dos matrices.\n";
+	cout<<"3.- Sacar la POTENCIA de la matriz 1.\n"; 
+	cout<<"4.- Sacar la TRANSPUESTA de la matriz 1.\n";
+	cout<<"5.- Sacar la MEDIA Y VARIANZA de las matrices y compararlas.\n";
         cout<<"\nIngrese una opcion: "; cin>>op;
 	switch(op)
 {
@@ -75,7 +75,7 @@ int main()
 		cout<<"\n";
 	}
 	
-	cout<<"\nESTA ES DE LA SEGUNDA MATRIZ: \n\n";
+	cout<<"\nESTA ES LA SEGUNDA MATRIZ: \n\n";
 	for(int a=0;a<2;a++)
 	{
 		for(int b=0;b<2;b++)
@@ -95,7 +95,9 @@ int main()
 	        	
     //PARTICIPANTE2 
 	//PRODUCTO DE LAS MATRICES.
-    cout<<"\nESTA FUNCION PERMITE CALCULAR EL PRODUCTO ENTRE DOS MATRICES\n";
+	cout<<"\n============================================================\n";
+    cout<<"ESTA FUNCION PERMITE CALCULAR EL PRODUCTO ENTRE DOS MATRICES\n";
+    cout<<"============================================================\n";
     
 	 for (int a=0;a<2;a++)
     {
@@ -117,7 +119,9 @@ int main()
 	{
 		for(int b=0;b<2;b++)
 		{
-			cout<<matrizresultado[a][b]<<" ";
+			cout<<"[";
+			cout<<matrizresultado[a][b]<<"";
+			cout<<"]";
 		}
 		cout<<"\n";
 	}
@@ -133,6 +137,9 @@ int main()
 //COLABORADOR 3
 	// AQUI VAMOS A OBTENER LA POTENCIA DE UNA MATRIZ.
 	
+	cout<<"\n============================================================\n";
+    cout<<"ESTA FUNCION PERMITE CALCULAR LA POTENCIA ENTRE DOS MATRICES\n";
+    cout<<"============================================================\n";
 	for (int a=0;a<2;a++)
     {
 	
@@ -143,13 +150,15 @@ int main()
          }
     }
     
-	cout<<"\nPARA LA POTENCIA DE LA MATRIZ 1, ES:\n";
+	cout<<"\nLA POTENCIA DE LA MATRIZ 1, ES:\n";
 	
 	for(int a=0;a<2;a++)
 	{
 		for(int b=0;b<2;b++)
 		{
-			cout<<matrizresultado[a][b]<<" ";
+			cout<<"[";
+			cout<<matrizresultado[a][b]<<"";
+			cout<<"]";
 		}
 		cout<<"\n";
 	}
@@ -163,13 +172,18 @@ int main()
 
 //COLABORADOR4
 	// AQUI SE VA A  CALCULAR LA TRANSPUESTA DE LA  MATRIZ 1
-	cout<<"\nLA PRIMERA MATRIZ, QUEDARIA ASI:\n";
+	cout<<"\n============================================================\n";
+    cout<<"ESTA FUNCION PERMITE VER LA TRANSPUESTA DE LA PRIMERA MATRIZ\n";
+    cout<<"============================================================\n";
+	cout<<"\nLA TRANSPUESTA DE LA PRIMERA MATRIZ, QUEDARIA ASI:\n";
 		
 	for(int a=0;a<2;a++)
 	{
 		for(int b=0;b<2;b++)
 		{
-		cout<<matriz1[b][a]<<" ";
+		cout<<"[";
+		cout<<matriz1[b][a]<<"";
+		cout<<"]";
 		}
 		 
 		 cout<<"\n";
@@ -186,7 +200,9 @@ int main()
 //AUI SE SACARA LA MEDIA Y LA VARIANZA DE LAS MATRICES
 
 	//AQUI VOY A CALCULAR Y MOSTRAR LAS MEDIA Y VARIANZA DE LAS DOS MATRICES
-	
+	cout<<"\n============================================================\n";
+    cout<<"ESTA FUNCION CALCULA LA MEDIA Y VARIANZADE LA PRIMERA MATRIZ\n";
+    cout<<"============================================================\n";
 	for (int a=0;a<2;a++)
     {
 	     for (int b=0;b<2;b++)
@@ -214,7 +230,9 @@ int main()
 		
 		for(int b=0;b<2;b++)
 		{
-			cout<<matrizresultado[a][b]<<" ";
+			cout<<"[";
+			cout<<matrizresultado[a][b]<<"";
+			cout<<"]";
 		}
 		
 		cout<<"\n";
@@ -227,7 +245,9 @@ int main()
 		
 		for(int b=0;b<2;b++)
 		{
-			cout<<matrizresultado1[a][b]<<" ";
+			cout<<"[";
+			cout<<matrizresultado1[a][b]<<"";
+			cout<<"]";
 		}
 		cout<<"\n";
 	}
@@ -239,13 +259,13 @@ int main()
 		
 		  if(op < 0 || op > 5	)
 		{
-	          cout<<"\nEste numero no es valido..\n";
+	          cout<<"\nEste numero no es valido...\n";
 		  	system("cls");
 		}
 		  	  
 	if(op==0)
 	{
-	cout<<"\nAdios..\n";
+	cout<<"\nAdios...\n";
 	 cout<<"TERMINAR: "<<endl;
 	}
 	
